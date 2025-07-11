@@ -1,0 +1,34 @@
+.transactions-container {
+  max-width: 800px;
+  margin: auto;
+  
+  text-align: center;
+  padding: 80px 40px 20px; /* Added padding to prevent overlap with fixed header */
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.transactions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-card {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  
+  /* Smooth transition for hover effects */
+  transition: all 0.3s ease-in-out;
+}
+
+.transaction-card:hover {
+  background-color: #ecf0f1; /* Light golden background */
+  color: black;
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* More depth */
+  border-color: #d4a017; /* Darker golden border */
+}
