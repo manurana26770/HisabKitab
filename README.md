@@ -7,7 +7,7 @@ HisabKitab is a **Payment Tracking App** designed to simplify managing and recor
 - ✅ **QR Code Generation:** Each friend gets a QR code to make transactions easily.
 - ✅ **Transaction History:** View a detailed history of payments received and made.
 - ✅ **UPI Integration:** Supports **UPI** for payments.
-- ✅ **AI-Based Payment Suggestions:** Provides smart suggestions based on transaction history.
+- ✅ **AI-Based Payment Suggestions:** Provides smart suggestions based on transaction history.(working)
 - ✅ **User Summary:** Track total money received and given.
 - ✅ **Secure Authentication:** Uses **JWT-based authentication** for secure access.
 
@@ -24,7 +24,7 @@ HisabKitab is a **Payment Tracking App** designed to simplify managing and recor
 - **JWT Authentication** (for secure user login)
 
 ### 📡 Deployment
-- **Frontend:** Deployed on **Firebase Hosting**
+- **Frontend:** Deployed on **vercel Hosting**
 - **Backend:** Deployed on **Render** (or your current deployment platform)
 - **Database:** Hosted on **MongoDB Atlas**
 
@@ -33,22 +33,22 @@ HisabKitab is a **Payment Tracking App** designed to simplify managing and recor
 ### Prerequisites
 - Node.js & npm installed
 - MongoDB Atlas setup
-- Firebase CLI (for frontend deployment)
+  
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/manishrana0725/hisabkitab.git
+git clone https://github.com/manurana26770/HisabKitab.git
 cd hisabkitab
 ```
 
 ### 2️⃣ Install Dependencies
 ```bash
 # Backend
-cd backend
+cd backend1
 npm install
 
 # Frontend
-cd ../frontend
+cd ../clientside
 npm install
 ```
 
@@ -57,7 +57,11 @@ Create a `.env` file in the backend directory:
 ```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+PORT=
+
 ```
 
 ### 4️⃣ Run the Application
@@ -72,7 +76,8 @@ npm run dev
 ```
 
 ## 🌎 Live Demo
-[HisabKitab Live](https://hisabkitab-2.web.app/)
+https://hisab-kitab-n3k6.vercel.app/
+
 
 ## 📌 Future Enhancements
 - 🔹 **Export Transactions as PDF**
@@ -80,8 +85,8 @@ npm run dev
 - 🔹 **Graphical Insights & Analytics**
 
 ## 📬 Contact
-📧 **Email:** manishbadm0725@gmail.com  
-🔗 **LinkedIn:** [Your Profile](https://linkedin.com/in/manish-rana-a8372628b/)  
+📧 **Email:** manurana26770@gmail.com  
+
 
 
 ---
